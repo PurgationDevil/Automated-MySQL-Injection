@@ -1,4 +1,4 @@
-# mini-sqlmap
+# Automated MySQL Injection
 
 A small, readable SQL injection automation tool built for learning on **sqli-labs**.
 It walks a target from detection to data extraction and can switch between UNION, error-based,
