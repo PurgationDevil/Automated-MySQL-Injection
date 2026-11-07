@@ -1,3 +1,8 @@
+<p align="center">
+  <strong>English</strong> |
+  <a href="README_zh.md">简体中文</a>
+</p>
+
 # Automated MySQL Injection
 
 A small, readable SQL injection automation tool built for learning on **sqli-labs**.

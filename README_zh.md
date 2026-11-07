@@ -1,3 +1,8 @@
+<p align="center">
+  <strong>简体中文</strong> |
+  <a href="README.md">English</a>
+</p>
+
 # Automated MySQL Injection
 
 一个为了学习而写的小型 SQL 注入自动化工具，靶场是 **sqli-labs**。
