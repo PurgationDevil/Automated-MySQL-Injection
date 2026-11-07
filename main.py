@@ -299,14 +299,6 @@ def main():
          f"平均耗时: {s['avg_ms']:.1f} ms  总耗时: {time.time() - started:.1f} s")
     info(f"各阶段请求数: {s['stages']}")
     info(f"完整请求历史: {recorder.path}")
-    print("=" * 60)
-    print("[学习地图] 阶段 -> 模块对应关系：")
-    print("  注入探测 -> payloads/detectors.py        字段数/回显位 -> payloads/union.py")
-    print("  SQL 构造 -> payloads/extractor.py        盲注猜解 -> payloads/blind.py")
-    print("  报错提取 -> payloads/error_based.py      盲注提问 -> conditions/oracle.py")
-    print("  注入位置 -> core/point.py                语法变体 -> bypass/syntax.py")
-    print("  请求封装 -> core/injector.py             请求历史 -> history/recorder.py")
-    print("  绕过规则 -> bypass/ + core/pipeline.py   HTTP 底层 -> transport/http_client.py")
 
 
 if __name__ == "__main__":
