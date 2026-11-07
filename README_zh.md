@@ -1,4 +1,4 @@
-# mini-sqlmap
+# Automated MySQL Injection
 
 一个为了学习而写的小型 SQL 注入自动化工具，靶场是 **sqli-labs**。
 从注入点探测到数据导出全程自动，支持 UNION、报错、布尔盲注、时间盲注，
